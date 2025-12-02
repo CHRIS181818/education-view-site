@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* NAVBAR */
+.topnav {
+  overflow: hidden;
+  background-color: #003366;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #0055aa;
+}
+
+.topnav .active {
+  background-color: #0099ff;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url("images/banner.jpg") center/cover no-repeat;
+  height: 300px;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.features article {
+  background: white;
+  padding: 20px;
+  width: 30%;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* TABLE */
+.course-table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+  padding: 14px;
+  border: 1px solid #ccc;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  width: 50%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
